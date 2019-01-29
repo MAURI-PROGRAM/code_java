@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Creado por Michael
+ * Version 1.0
+ * Creado el 28-01-2019
  */
 package ejemplouno;
 
@@ -24,6 +24,8 @@ public class EjemploUno {
         String palabraInvertida = "";
         System.out.println("Ingrese la palabra a invertir");
         palabra = entrada.nextLine();
+        
+        //Aqui cuento los caracteres de la palabra
         longitudPalabra = palabra.length();
 
         for (int i = longitudPalabra; i > 0; i--) {
