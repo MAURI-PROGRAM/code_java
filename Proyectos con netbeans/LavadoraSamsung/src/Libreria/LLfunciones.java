@@ -55,4 +55,11 @@ public class LLfunciones {
             System.out.println("TU ropa esta lista");
         }
     }
+    public int getTipoDeRopa(){
+        return TipoDeRopa;    
+    }
+    
+    public void setTipoDeRopa(int TipoDeRopa){
+        this.TipoDeRopa = TipoDeRopa;        
+    }
 }
