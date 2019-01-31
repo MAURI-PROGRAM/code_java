@@ -3,24 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clases;
+package hilos;
 
 /**
  *
  * @author Michael
  */
-public class HiloProceso extends Thread{
+public class Hilo1 extends Thread{
     @Override
     public void run(){
         for (int i = 0; i < 6; i++) {
-            setPriority(i+1);
-            System.out.println(i+getName()+getPriority());
+            System.out.print(i+": G");
             try {
                 sleep(1000);
             } catch (InterruptedException e) {
                 System.out.println("Error");
             }
-            
         }
     }
 }
